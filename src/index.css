@@ -4,56 +4,56 @@
 
 @layer base {
   :root {
-    --background: 40 20% 97.5%;
-    --foreground: 60 4% 10%;
+    --background: 0 0% 100%;
+    --foreground: 270 10% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 60 4% 10%;
+    --card-foreground: 270 10% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 60 4% 10%;
+    --popover-foreground: 270 10% 15%;
 
-    --primary: 166 82% 27%;
+    --primary: 270 60% 62%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 35 70% 63%;
-    --secondary-foreground: 35 80% 15%;
+    --secondary: 330 55% 75%;
+    --secondary-foreground: 330 60% 18%;
 
-    --muted: 40 10% 94%;
-    --muted-foreground: 50 4% 42%;
+    --muted: 270 20% 96%;
+    --muted-foreground: 270 8% 48%;
 
-    --accent: 18 85% 67%;
-    --accent-foreground: 18 90% 15%;
+    --accent: 300 40% 80%;
+    --accent-foreground: 300 45% 18%;
 
-    --destructive: 354 55% 64%;
+    --destructive: 0 65% 65%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 40 12% 89%;
-    --input: 40 8% 93%;
-    --ring: 166 82% 27%;
+    --border: 270 15% 92%;
+    --input: 270 12% 94%;
+    --ring: 270 60% 62%;
 
     --radius: 1rem;
 
-    /* Macro colors */
-    --macro-protein: 166 82% 27%;
-    --macro-carbs: 35 70% 63%;
-    --macro-fat: 354 55% 64%;
-    --macro-calories: 18 85% 67%;
+    /* Macro colors — pastel lilac palette */
+    --macro-protein: 270 55% 60%;
+    --macro-carbs: 330 50% 72%;
+    --macro-fat: 350 60% 70%;
+    --macro-calories: 290 45% 68%;
 
     /* Shadows */
-    --shadow-sm: 0 2px 4px rgba(26, 26, 24, 0.02);
-    --shadow-md: 0 4px 12px rgba(26, 26, 24, 0.05);
-    --shadow-lg: 0 8px 24px rgba(26, 26, 24, 0.08);
+    --shadow-sm: 0 2px 4px rgba(120, 100, 160, 0.04);
+    --shadow-md: 0 4px 12px rgba(120, 100, 160, 0.07);
+    --shadow-lg: 0 8px 24px rgba(120, 100, 160, 0.10);
 
-    /* Sidebar (unused but required) */
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 166 82% 27%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 166 82% 27%;
+    /* Sidebar */
+    --sidebar-background: 270 20% 98%;
+    --sidebar-foreground: 270 8% 28%;
+    --sidebar-primary: 270 60% 62%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 18% 95%;
+    --sidebar-accent-foreground: 270 10% 15%;
+    --sidebar-border: 270 12% 91%;
+    --sidebar-ring: 270 60% 62%;
   }
 }
 
