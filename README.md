@@ -50,7 +50,7 @@ reps and weight). The goal is to make logging **fast** and to show progress at a
 | Charts | Recharts |
 | Forms | React Hook Form + Zod |
 | Icons | Lucide React |
-| Backend (in progress) | Supabase via Lovable Cloud |
+| Backend (in progress) | Supabase |
 | Testing | Vitest · Testing Library · Playwright |
 
 ## 🚀 Running it locally
@@ -114,7 +114,7 @@ src/
 A personal project under **active development**. The interface currently runs on sample
 data; the planned next steps are:
 
-- [ ] Persist meals and workouts with Supabase (Lovable Cloud).
+- [ ] Persist meals and workouts with Supabase.
 - [ ] User authentication.
 - [ ] Progress history and charts (weight lifted, macro trends over time).
 - [ ] English version of the UI.
